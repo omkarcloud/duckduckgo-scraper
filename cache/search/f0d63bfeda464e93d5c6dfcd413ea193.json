@@ -1,0 +1,60 @@
+{
+    "data": {
+        "count": 27,
+        "next": "https://duckduckgo-scraper.p.rapidapi.com/search/?query=mango&offset=27",
+        "previous": null,
+        "results": [
+            {
+                "title": "Fashion for Women | Mango USA",
+                "link": "https://shop.mango.com/us/women",
+                "description": "Gift Guide New! Latest trends in fashion for women. Discover our designs: dresses, tops, jeans, shoes, bags and accessories. Free delivery from US$50 - Returns within 30 days - Pay in 4 interest-free installments."
+            },
+            {
+                "title": "Mango - Wikipedia",
+                "link": "https://en.wikipedia.org/wiki/Mango",
+                "description": "Mango fruits - single and halved. A mango is an edible stone fruit produced by the tropical tree Mangifera indica.It is believed to have originated in southern Asia, particularly in eastern India, Bangladesh, and the Andaman Islands. M. indica has been cultivated in South and Southeast Asia since ancient times resulting in two types of modern mango cultivars: the \"Indian type\" and the ..."
+            },
+            {
+                "title": "Mango: Nutrition, Health Benefits, and How to Eat It",
+                "link": "https://www.healthline.com/nutrition/mango",
+                "description": "Mango is a low-calorie, high-nutrient fruit that may help prevent diabetes, improve immunity, and support heart health. Learn how to enjoy mango in moderation and discover its potential health benefits from this web page."
+            },
+            {
+                "title": "Mango: Health Benefits, Nutrients per Serving, Preparation ... - WebMD",
+                "link": "https://www.webmd.com/diet/health-benefits-mango",
+                "description": "Mangoes are sweet, colorful, and nutritious fruits that can help lower your risk of cancer, support your heart health, and improve your digestive health. Learn about the types, nutrition, preparation, and benefits of mangoes from WebMD."
+            },
+            {
+                "title": "Learn About Mango Fruit - Facts, Nutrition, & More | Mango Board",
+                "link": "https://www.mango.org/about-mangos/",
+                "description": "Learn all about mangos. From their journey on the mango tree, how to choose them at the grocery store and how to cut them. Visit Mango.org today!"
+            },
+            {
+                "title": "Mangifera indica - Wikipedia",
+                "link": "https://en.wikipedia.org/wiki/Mangifera_indica",
+                "description": "Mangifera indica, commonly known as mango, is a species of flowering plant in the family Anacardiaceae. It is a large fruit tree, capable of growing to a height of 30 metres (100 feet). There are two distinct genetic populations in modern mangoes - the \"Indian type\" and the \"Southeast Asian type\"."
+            },
+            {
+                "title": "Mango | Description, History, Cultivation, & Facts | Britannica",
+                "link": "https://www.britannica.com/plant/mango-plant-and-fruit",
+                "description": "The mango does not require any particular soil, but the finer varieties yield good crops only where there is a well-marked dry season to stimulate fruit production.In rainy areas a fungal disease known as anthracnose destroys flowers and young fruits and is difficult to control. Propagation is by grafting or budding. Inarching, or approach grafting (in which a scion and stock of independently ..."
+            },
+            {
+                "title": "How to Cut and Prepare Fresh Mango - The Spruce Eats",
+                "link": "https://www.thespruceeats.com/prepare-fresh-mango-3217514",
+                "description": "Learn how to choose, slice, score, and peel a ripe mango with this step-by-step guide. Find out how to enjoy fresh mango as is or use it for Thai cooking with recipes and tips."
+            },
+            {
+                "title": "Are Mangoes Good for You? - Healthline",
+                "link": "https://www.healthline.com/health/food-nutrition/are-mangoes-good-for-you",
+                "description": "Mangoes are a tropical fruit with high vitamin A and C content, as well as fiber and potassium. They may help with weight control, digestion, cancer, and iron absorption. Learn how to eat mangoes, their nutrition facts, and their health benefits."
+            },
+            {
+                "title": "Mangoes: Nutrition and Health Benefits",
+                "link": "https://www.health.com/nutrition/health-benefits-mango",
+                "description": "Mangoes are a tropical fruit with antioxidant, anti-inflammatory, and anti-diabetic properties. They can support heart, eye, skin, and immune health, as well as digestion and constipation. Learn more about the nutrition and health benefits of mangoes, how to enjoy them, and the risks and tips for eating them."
+            }
+        ]
+    },
+    "error": null
+}

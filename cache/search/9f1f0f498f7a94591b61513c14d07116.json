@@ -1,0 +1,60 @@
+{
+    "data": {
+        "count": 23,
+        "next": "https://duckduckgo-scraper.p.rapidapi.com/search/?query=watermelon&offset=23",
+        "previous": null,
+        "results": [
+            {
+                "title": "Watermelon 101: Nutrition Facts and Health Benefits",
+                "link": "https://www.healthline.com/nutrition/foods/watermelon",
+                "description": "Watermelon is a low-calorie, high-water fruit that contains citrulline and lycopene, two powerful plant compounds linked to lower blood pressure, improved metabolic health, and reduced muscle soreness. Learn more about the nutrition facts, health benefits, and how to enjoy watermelon in various ways."
+            },
+            {
+                "title": "Top 9 Health Benefits of Eating Watermelon",
+                "link": "https://www.healthline.com/nutrition/watermelon-health-benefits",
+                "description": "Watermelon is a good source of antioxidants, nutrients, and hydration. It may also support heart health, cancer prevention, inflammation reduction, and eye health. Learn how to enjoy watermelon in various ways and get the best nutrition benefits from this fresh food."
+            },
+            {
+                "title": "Watermelon - Wikipedia",
+                "link": "https://en.wikipedia.org/wiki/Watermelon",
+                "description": "Watermelon ( Citrullus lanatus) is a flowering plant species of the Cucurbitaceae family and the name of its edible fruit. A scrambling and trailing vine -like plant, it is a highly cultivated fruit worldwide, with more than 1,000 varieties . Watermelon is grown in favorable climates from tropical to temperate regions worldwide for its large ..."
+            },
+            {
+                "title": "Nutrition Facts and Health Benefits of Watermelon",
+                "link": "https://www.watermelon.org/the-slice/nutrition-facts-and-health-benefits-of-watermelon/",
+                "description": "Learn how watermelon is a nutrient-dense, hydrating, and antioxidant-rich fruit that can help you stay healthy and beautiful. Find out the benefits of watermelon for your immune system, skin, digestion, and heart health. See recipes and tips for using watermelon in your diet."
+            },
+            {
+                "title": "Watermelon Nutrition Facts and Health Benefits - Verywell Fit",
+                "link": "https://www.verywellfit.com/nutrition-facts-and-watermelon-carbs-1087575",
+                "description": "Learn how watermelon is a low-calorie, hydrating, and antioxidant-rich summer fruit that can help fight dehydration, blood pressure, infections, and cancer. Find out the glycemic index, fiber, sugar, protein, vitamin C, and lycopene content of watermelon, as well as its allergens and adverse effects."
+            },
+            {
+                "title": "Watermelon: Health benefits, nutrition, and risks - Medical News Today",
+                "link": "https://www.medicalnewstoday.com/articles/266886",
+                "description": "Watermelon is a 90% water fruit that contains antioxidants, vitamins, and minerals. It may help prevent or treat various health conditions, such as asthma, blood pressure, cancer, and diabetes. Learn more about the possible health benefits, nutrition, and risks of watermelon."
+            },
+            {
+                "title": "Watermelon: Health Benefits, Risks & Nutrition Facts",
+                "link": "https://www.livescience.com/46019-watermelon-nutrition.html",
+                "description": "Watermelon is a refreshing fruit full of healthy vitamins, low in calories and free of fat. It contains high levels of lycopene, an antioxidant that may help with heart health, bone health and prostate cancer prevention. It also has other nutrients like vitamin A, vitamin C and potassium. Learn more about the health benefits, risks and nutrition facts of watermelon."
+            },
+            {
+                "title": "Watermelon | Nutrition, Health Benefits, Recipes | Britannica",
+                "link": "https://www.britannica.com/plant/watermelon",
+                "description": "Learn about watermelon, a succulent fruit and vinelike plant of the gourd family, native to tropical Africa and cultivated around the world. Find out its nutrition, health benefits, recipes, and history from Britannica."
+            },
+            {
+                "title": "Health Benefits of Watermelon - Cleveland Clinic Health Essentials",
+                "link": "https://health.clevelandclinic.org/benefits-of-watermelon",
+                "description": "Even watermelon seeds have benefits, with magnesium, iron, healthy fats and zinc. One cup of diced watermelon has only 46 calories and: 0 g of fat. 1 mg of sodium. 9 g of sugar. 10 mg of calcium ..."
+            },
+            {
+                "title": "Watermelon: Nutrition, Health Benefits, Risks, More",
+                "link": "https://www.everydayhealth.com/diet-nutrition/diet/watermelon-nutrition-carbs-benefits-more-on-summer-staple/",
+                "description": "Learn about the history, nutrition facts, and health benefits of watermelon, a 92%-water fruit that can help you hydrate, lower blood pressure, and manage cholesterol. Find out how to cut, prepare, and eat watermelon safely and enjoyably."
+            }
+        ]
+    },
+    "error": null
+}
