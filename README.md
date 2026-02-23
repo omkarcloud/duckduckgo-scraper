@@ -1,149 +1,284 @@
-![DuckDuckGo Scraper Featured Image](https://raw.githubusercontent.com/omkarcloud/duckduckgo-scraper/master/images/duckduckgo-scraper-featured-image.png)
+![DuckDuckGo Scraper Featured Image](https://raw.githubusercontent.com/omkarcloud/duckduckgo-scraper/master/duckduckgo-scraper-featured-image.png)
 
-<div align="center" style="margin-top: 0;">
-  <h1>✨ DuckDuckGo Scraper 🚀</h1>
-  <p>💦 DuckDuckGo Scraper helps you collect search results from DuckDuckGo. 💦</p>
-</div>
-<em>
-  <h5 align="center">(Programming Language - Python 3)</h5>
-</em>
-<p align="center">
-  <a href="#">
-    <img alt="duckduckgo-scraper forks" src="https://img.shields.io/github/forks/omkarcloud/duckduckgo-scraper?style=for-the-badge" />
-  </a>
-  <a href="#">
-    <img alt="Repo stars" src="https://img.shields.io/github/stars/omkarcloud/duckduckgo-scraper?style=for-the-badge&color=yellow" />
-  </a>
-  <a href="#">
-    <img alt="duckduckgo-scraper License" src="https://img.shields.io/github/license/omkarcloud/duckduckgo-scraper?color=orange&style=for-the-badge" />
-  </a>
-  <a href="https://github.com/omkarcloud/duckduckgo-scraper/issues">
-    <img alt="issues" src="https://img.shields.io/github/issues/omkarcloud/duckduckgo-scraper?color=purple&style=for-the-badge" />
-  </a>
-</p>
-<p align="center">
-  <img src="https://views.whatilearened.today/views/github/omkarcloud/duckduckgo-scraper.svg" width="80px" height="28px" alt="View" />
-</p>
+# DuckDuckGo Scraper API
 
-<p align="center">
-  <a href="https://gitpod.io/#https://github.com/omkarcloud/duckduckgo-scraper">
-    <img alt="Open in Gitpod" src="https://gitpod.io/button/open-in-gitpod.svg" />
-  </a>
-</p>
-  
----
+Get real-time DuckDuckGo search results as structured JSON — organic results, knowledge panels, sponsored links, and related queries in one call. No headless browsers, no HTML parsing. 5,000 free requests/month.
 
-## Disclaimer for DuckDuckGo Scraper Project
+## Key Features
 
-> By using DuckDuckGo Scraper, you agree to comply with all applicable local and international laws related to data scraping, copyright, and privacy. The developers of DuckDuckGo Scraper will not be held liable for any misuse of this software. It is the user's sole responsibility to ensure adherence to all relevant laws regarding data scraping, copyright, and privacy, and to use DuckDuckGo Scraper in an ethical and legal manner, in line with both local and international regulations.
-
-We take concerns related to the DuckDuckGo Scraper Project very seriously. If you have any inquiries or issues, please contact Chetan Jain at [chetan@omkar.cloud](mailto:chetan@omkar.cloud). We will take prompt and necessary action in response to your emails.
-
-## 👉 Explore Our Other Awesome Products
-
-- ✅ [Botasaurus](https://github.com/omkarcloud/botasaurus): The All-in-One Web Scraping Framework with Anti-Detection, Parallelization, Asynchronous, and Caching Superpowers.
-
----
-
-DuckDuckGo Scraper helps you collect search results from DuckDuckGo.
-
-## 🚀 Getting Started
-
-1️⃣ **Clone the Magic 🧙‍♀:**
-```shell
-git clone https://github.com/omkarcloud/duckduckgo-scraper
-cd duckduckgo-scraper
-```
-2️⃣ **Install Dependencies 📦:**
-```shell
-python -m pip install -r requirements.txt
-```
-3️⃣ **Let the Scraping Begin 😎**:
-```shell
-python main.py
+- Search DuckDuckGo by keyword or with operators (`site:`, `inurl:`, `intitle:`)
+- Get organic results with rank, title, URL, description, icon, dates, and sub-links
+- Knowledge panels with descriptions, images, attributes, and social links
+- Sponsored links with domains and sub-links
+- Related queries for keyword research
+- Limit/start pagination with built-in `next`/`previous` URLs
+- **5,000 requests/month on free tier**
+- Example Response:
+```json
+{
+    "rank": 1,
+    "title": "Mango: Nutrition, Health Benefits, and How to Eat It",
+    "url": "https://www.healthline.com/nutrition/mango",
+    "description": "Learn about the nutrients, antioxidants, and potential health benefits of mango, a tropical fruit with a low calorie density. Find out how to enjoy mango in various ways, such as smoothies, salads, or desserts.",
+    "icon": "https://external-content.duckduckgo.com/ip3/www.healthline.com.ico",
+    "date_text": "Jun 2, 2025",
+    "published_at": "2025-06-02T00:00:00.0000000"
+}
 ```
 
-Find your data in the `output` directory.
+## Get API Key
 
-![DuckDuckGo Scraper CSV Result](https://raw.githubusercontent.com/omkarcloud/duckduckgo-scraper/master/images/duckduckgo-scraper-csv-result.png)
+Create an account at [omkar.cloud](https://www.omkar.cloud/auth/sign-up?redirect=/api-key) to get your API key.
 
-*Note: If you don't have Python installed. Follow this Simple FAQ [here](https://github.com/omkarcloud/duckduckgo-scraper/blob/master/advanced.md#-i-dont-have-python-installed-how-can-i-run-the-scraper) and you will have your DuckDuckGo data in next 5 Minutes*
+It takes just 2 minutes to sign up. You get 5,000 free requests every month — more than enough for most developers to get their job done without paying a dime.
 
-## 🤔 FAQs
+This is a well built product, and your search for the best DuckDuckGo Scraper API ends right here.
 
-### ❓ How to Scrape DuckDuckGo ?
 
-1. Open the `main.py` file.
-2. Update the `queries` list with the locations you are interested in. For example:
-
-```python
-queries = [
-  "Mango",
-  "Watermelon",
-]
-
-DuckDuckGo.search(queries, max=10)
-```
-
-3. Run it.
+## Quick Start
 
 ```bash
-python main.py
+curl -X GET "https://duckduckgo-scraper.omkar.cloud/duckduckgo/search?query=mango" \
+  -H "API-Key: YOUR_API_KEY"
 ```
 
-Then find your data in the `output` directory.
-
-
-### ❓ How to Scrape More DuckDuckGo Search Results Using Your DuckDuckGo API?
-
-To scrape additional data, follow these steps to use our DuckDuckGo API. You can make 50 requests for free:
-
-1. Sign up on RapidAPI by visiting [this link](https://rapidapi.com/auth/sign-up).
-
-![Sign Up on RapidAPI](https://raw.githubusercontent.com/omkarcloud/assets/master/images/sign-up.png)
-
-2. Then, subscribe to our Free Plan by visiting [this link](https://rapidapi.com/Chetan11dev/api/duckduckgo-scraper/pricing).
-
-![Subscribe to Free Plan](https://raw.githubusercontent.com/omkarcloud/assets/master/images/free-subscription.png)
-
-3. Now, copy the API key.
-
-![Copy the API Key](https://raw.githubusercontent.com/omkarcloud/assets/master/images/api-key.png) 
-
-4. Use it in the scraper as follows:
-```python
-DuckDuckGo.search("Orange", max=10, key="YOUR_API_KEY")
+```json
+{
+  "result_count": 10,
+  "limit": 10,
+  "start": 0,
+  "next": "https://duckduckgo-scraper.omkar.cloud/duckduckgo/search?query=mango&start=10&limit=10",
+  "previous": null,
+  "results": [
+    {
+      "rank": 1,
+      "title": "Mango USA - Sale | Online fashion",
+      "url": "https://shop.mango.com/us/en",
+      "description": "SALE - Discover the latest in fashion, footwear and accessories at Mango.",
+      "icon": "https://external-content.duckduckgo.com/ip3/shop.mango.com.ico"
+    }
+  ]
+}
 ```
 
-5. Run the script, and you'll find your data in the `output` folder.
+## Quick Start (Python)
+
 ```bash
-python main.py
-```   
+pip install requests
+```
 
-The first 50 requests are free. After that, you can upgrade to the Pro Plan, which will get you 1000 requests for just $9.
+```python
+import requests
 
+response = requests.get(
+    "https://duckduckgo-scraper.omkar.cloud/duckduckgo/search",
+    params={"query": "mango", "limit": 10},
+    headers={"API-Key": "YOUR_API_KEY"}
+)
 
-### ❓ How did you build it?
-
-We used Botasaurus, It's an All-in-One Web Scraping Framework with Anti-Detection, Parallelization, Asynchronous, and Caching Superpowers.
-
-Botasaurus helped us cut down the development time by 50% and helped us focus only on the core extraction logic of the scraper.
-
-If you are a Web Scraper, you should learn about Botasaurus [here](https://github.com/omkarcloud/botasaurus), because Botasaurus will save you countless hours in your life as a Web Scraper.
-
-<p align="center">
-  <a href="https://github.com/omkarcloud/botasaurus">
-  <img src="https://raw.githubusercontent.com/omkarcloud/assets/master/images/mascot.png" alt="botasaurus" />
-</a>
-</p>
+print(response.json())
+```
 
 
-### ❓ Need More Help or Have Additional Questions?
+## API Reference
 
-For further help, contact us on WhatsApp. We'll be happy to help you out.
+### Web Search
 
-[![Contact Us on WhatsApp about DuckDuckGo Scraper](https://raw.githubusercontent.com/omkarcloud/assets/master/images/whatsapp-us.png)](https://api.whatsapp.com/send?phone=918295042963&text=Hi,%20I%20would%20like%20to%20learn%20more%20about%20your%20products.)
+```
+GET https://duckduckgo-scraper.omkar.cloud/duckduckgo/search
+```
 
-## Love It? [Star It! ⭐](https://github.com/omkarcloud/duckduckgo-scraper/stargazers)
+#### Parameters
 
-## Made with ❤️ using [Botasaurus Web Scraping Framework](https://github.com/omkarcloud/botasaurus)
+| Parameter | Required | Default | Description |
+|-----------|----------|---------|-------------|
+| `query` | Yes | — | Search query. Keywords, phrases, or operators like `site:`, `inurl:`, `intitle:`. Max 500 characters. |
+| `limit` | No | `50` | Max results to return. Range: `1` to `50`. |
+| `start` | No | `0` | Number of results to skip. Use with `limit` to paginate. |
+
+#### Example
+
+```python
+import requests
+
+response = requests.get(
+    "https://duckduckgo-scraper.omkar.cloud/duckduckgo/search",
+    params={"query": "mango", "limit": 10},
+    headers={"API-Key": "YOUR_API_KEY"}
+)
+
+print(response.json())
+```
+
+#### Response
+
+<details>
+<summary>Sample Response (click to expand)</summary>
+
+```json
+{
+  "result_count": 10,
+  "limit": 10,
+  "start": 0,
+  "next": "https://duckduckgo-scraper.omkar.cloud/duckduckgo/search?query=mango&start=10&limit=10",
+  "previous": null,
+  "results": [
+    {
+      "rank": 1,
+      "title": "Mango USA - Sale | Online fashion",
+      "url": "https://shop.mango.com/us/en",
+      "description": "SALE - Discover the latest in fashion, footwear and accessories at Mango. Buy the best looks for this season and dress up to date. Enter NOW!",
+      "icon": "https://external-content.duckduckgo.com/ip3/shop.mango.com.ico",
+      "sub_links": [
+        {
+          "title": "Women",
+          "url": "https://shop.mango.com/us/en/h/women",
+          "description": "SALE - Latest trends in women's fashion. Discover our designs: dresses, tops, jeans, shoes, bags and accessories."
+        },
+        {
+          "title": "Men",
+          "url": "https://shop.mango.com/us/en/h/men",
+          "description": "SALE - Latest trends in men's fashion: suits, shirts, trousers, jackets, jeans and shoes at exclusive prices."
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "Mango: Nutrition, Health Benefits, and How to Eat It",
+      "url": "https://www.healthline.com/nutrition/mango",
+      "description": "Learn about the nutrients, antioxidants, and potential health benefits of mango, a tropical fruit with a low calorie density. Find out how to enjoy mango in various ways, such as smoothies, salads, or desserts.",
+      "icon": "https://external-content.duckduckgo.com/ip3/www.healthline.com.ico",
+      "date_text": "Jun 2, 2025",
+      "published_at": "2025-06-02T00:00:00.0000000"
+    },
+    {
+      "rank": 3,
+      "title": "Mango - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mango",
+      "description": "Learn about the mango, an edible stone fruit produced by the tropical tree Mangifera indica. Discover its history, varieties, characteristics, and culinary and other uses.",
+      "icon": "https://external-content.duckduckgo.com/ip3/en.wikipedia.org.ico"
+    }
+  ],
+  "sponsored": [
+    {
+      "rank": 1,
+      "title": "MANGO Man - Official Website - The best for this season",
+      "url": "https://shop.mango.com/us/en/h/men",
+      "domain": "mango.com",
+      "description": "In Mango Man discover the latest trends in fashion, footwear and accessories. Discover the latest Trends in Men's Fashion. Shop Online the New Collection!",
+      "sub_links": [
+        {
+          "title": "Best Sellers",
+          "url": "https://shop.mango.com/us/en/c/men/best-sellers_6b44c326"
+        },
+        {
+          "title": "New Now - Men",
+          "url": "https://shop.mango.com/us/en/c/men/new-now_a4e1e34a"
+        }
+      ]
+    }
+  ],
+  "knowledge_panel": {
+    "title": "Mango",
+    "description": "A mango is an edible stone fruit produced by the tropical tree Mangifera indica. It originated in the northeastern part of the Indian subcontinent...",
+    "image": "https://duckduckgo.com/i/2d8ff37011fb6608.jpg",
+    "related": [
+      {
+        "query": "Achaar , South Asian pickles, commonly containing mango and lime.",
+        "url": "https://duckduckgo.com/South_Asian_pickles"
+      },
+      {
+        "query": "Mangoes",
+        "url": "https://duckduckgo.com/c/Mangoes"
+      }
+    ]
+  },
+  "related_queries": [
+    {
+      "query": "mango mango dessert"
+    },
+    {
+      "query": "mango mango dessert nyc"
+    },
+    {
+      "query": "mango clothing"
+    }
+  ]
+}
+```
+
+</details>
+
+## Error Handling
+
+```python
+response = requests.get(
+    "https://duckduckgo-scraper.omkar.cloud/duckduckgo/search",
+    params={"query": "mango"},
+    headers={"API-Key": "YOUR_API_KEY"}
+)
+
+if response.status_code == 200:
+    data = response.json()
+elif response.status_code == 401:
+    # Invalid API key
+    pass
+elif response.status_code == 429:
+    # Rate limit exceeded
+    pass
+```
+
+## FAQs
+
+### What data does the API return?
+
+**Web Search** returns per result:
+- Rank, title, URL, description, favicon icon
+- Publication date (when available)
+- Sub-links with titles, URLs, and descriptions
+
+**Additional sections** (when available for the query):
+- **Knowledge panel** — title, description, image, attributes (facts), social links, related topics
+- **Sponsored links** — rank, title, URL, domain, description, sub-links
+- **News** — rank, title, URL, description, publisher, date, image
+- **Related queries** — suggested search queries
+
+All in structured JSON. Ready to use in your app.
+
+### How accurate is the data?
+
+Data is pulled from DuckDuckGo in real time. Every API call fetches live results — not cached or stale data. Rankings, descriptions, and links reflect what DuckDuckGo shows right now.
+
+### How does pagination work?
+
+Use `limit` and `start` parameters. `limit` controls how many results per request (max 50). `start` controls the offset.
+
+First page: `?query=mango&limit=10` (returns results 0–9).
+Second page: `?query=mango&limit=10&start=10` (returns results 10–19).
+
+The response includes `next` and `previous` URLs so you don't have to build pagination links yourself.
+
+### Can I use search operators?
+
+Yes. DuckDuckGo supports operators like `site:github.com`, `inurl:api`, and `intitle:scraper`. Pass them directly in the `query` parameter, just like you would in the DuckDuckGo search bar.
+
+### Why DuckDuckGo instead of Google?
+
+DuckDuckGo doesn't personalize results by user history, location biases, or tracking profiles. You get consistent, unbiased search results every time.
+
+## Rate Limits
+
+| Plan | Price | Requests/Month |
+|------|-------|----------------|
+| Free | $0 | 5,000 |
+| Starter | $25 | 100,000 |
+| Grow | $75 | 1,000,000 |
+| Scale | $150 | 10,000,000 |
+
+## Questions? We have answers.
+
+Reach out anytime. We will solve your query within 1 working day.
+
+[![Contact Us on WhatsApp about DuckDuckGo Scraper](https://raw.githubusercontent.com/omkarcloud/assets/master/images/whatsapp-us.png)](https://api.whatsapp.com/send?phone=918178804274&text=I%20have%20a%20question%20about%20the%20DuckDuckGo%20Scraper%20API.)
+
+[![Contact Us on Email about DuckDuckGo Scraper](https://raw.githubusercontent.com/omkarcloud/assets/master/images/ask-on-email.png)](mailto:happy.to.help@omkar.cloud?subject=DuckDuckGo%20Scraper%20API%20Question)
