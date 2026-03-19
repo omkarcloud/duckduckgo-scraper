@@ -272,7 +272,7 @@ DuckDuckGo doesn't personalize results by user history, location biases, or trac
 |------|-------|----------------|
 | Free | $0 | 100 |
 | Starter | $16 | 1,500 |
-| Growth | $48 | 5,000 |
+| Grow | $48 | 5,000 |
 | Scale | $148 | 15,000 |
 
 ## Questions? We have answers.
